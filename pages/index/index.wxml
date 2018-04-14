@@ -22,4 +22,121 @@
     </swiper-item>
   </swiper>
 
+  <!--中间menu-->
+  <view class="mid-menu">
+    <view class="mid-menu-item">
+      <view class='mid-menu-item-img bg_green'></view>
+      <text class='mid-menu-item-txt'>手机</text>
+    </view>
+    <view class="mid-menu-item">
+      <view class='mid-menu-item-img bg_green'></view>
+      <text class='mid-menu-item-txt'>电视</text>
+    </view>
+    <view class="mid-menu-item">
+      <view class='mid-menu-item-img bg_green'></view>
+      <text class='mid-menu-item-txt'>电脑</text>
+    </view>
+    <view class="mid-menu-item">
+      <view class='mid-menu-item-img bg_green'></view>
+      <text class='mid-menu-item-txt'>新品</text>
+    </view>
+  </view>
+
+  <!--左1右2布局,布局类型1-->
+  <view class='bj-type1'>
+    <view class='bj-type1-item-left'>
+      <!--这里放图片 -->
+    </view>
+    <view class='bj-type1-item-right'>
+      <view class='bj-type1-top'>
+      <!--这里放图片 -->
+      </view>
+      <view class='bj-type1-bottom'>
+      <!--这里放图片 -->
+      </view>
+    </view>
+  </view>
+
+  <!--竖1带2N，布局类型2-->
+  <view class='bj-type2'>
+    <view class='bj-type2-item-top'>
+      <!--这里放图片 -->
+    </view>
+
+    <!--这里的bottom可以有多个-->
+    <view class='bj-type2-item-bottom'>
+      <view class='bj-type2-left'>
+      <!--这里放图片 -->
+      </view>
+      <view class='bj-type2-right'>
+      <!--这里放图片 -->
+      </view>
+    </view>
+    <view class='bj-type2-item-bottom'>
+      <view class='bj-type2-left'>
+      <!--这里放图片 -->
+      </view>
+      <view class='bj-type2-right'>
+      <!--这里放图片 -->
+      </view>
+    </view>
+    <view class='bj-type2-item-bottom'>
+      <view class='bj-type2-left'>
+      <!--这里放图片 -->
+      </view>
+      <view class='bj-type2-right'>
+      <!--这里放图片 -->
+      </view>
+    </view>
+    <view class='bj-type2-item-bottom'>
+      <view class='bj-type2-left'>
+      <!--这里放图片 -->
+      </view>
+      <view class='bj-type2-right'>
+      <!--这里放图片 -->
+      </view>
+    </view>
+  </view>
+
+   <!--竖1带2N，布局类型2-->
+  <view class='bj-type2'>
+    <view class='bj-type2-item-top'>
+      <!--这里放图片 -->
+    </view>
+
+    <!--这里的bottom可以有多个-->
+    <view class='bj-type2-item-bottom'>
+      <view class='bj-type2-left'>
+      <!--这里放图片 -->
+      </view>
+      <view class='bj-type2-right'>
+      <!--这里放图片 -->
+      </view>
+    </view>
+    <view class='bj-type2-item-bottom'>
+      <view class='bj-type2-left'>
+      <!--这里放图片 -->
+      </view>
+      <view class='bj-type2-right'>
+      <!--这里放图片 -->
+      </view>
+    </view>
+    <view class='bj-type2-item-bottom'>
+      <view class='bj-type2-left'>
+      <!--这里放图片 -->
+      </view>
+      <view class='bj-type2-right'>
+      <!--这里放图片 -->
+      </view>
+    </view>
+    <view class='bj-type2-item-bottom'>
+      <view class='bj-type2-left'>
+      <!--这里放图片 -->
+      </view>
+      <view class='bj-type2-right'>
+      <!--这里放图片 -->
+      </view>
+    </view>
+  </view>
+
 </view>

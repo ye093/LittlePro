@@ -46,3 +46,110 @@
 .bg_blue {
   background-color: blue;
 }
+
+/* 中间菜单栏*/
+
+.mid-menu {
+  height: 120px;
+  width: 100%;
+  display: flex;
+  background-color: white;
+  justify-content: space-around;
+}
+
+.mid-menu-item {
+  align-items: center;
+  justify-content: center;
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.mid-menu-item-img {
+  width: 35px;
+  height: 45px;
+  border-radius: 5px;
+}
+
+.mid-menu-item-txt {
+  color: #9b9b9b;
+  font-size: 12px;
+}
+
+/* 布局类型1*/
+
+.bj-type1 {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  height: 280px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+}
+
+.bj-type1-item-left {
+  width: 49.5%;
+  height: 99%;
+  background-color: yellow;
+}
+
+.bj-type1-item-right {
+  width: 49.5%;
+  height: 99%;
+  display: inline-flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.bj-type1-top {
+  width: 100%;
+  height: 49.5%;
+  background-color: red;
+}
+
+.bj-type1-bottom {
+  width: 100%;
+  height: 49.5%;
+  background-color: green;
+}
+
+/* 布局类型2*/
+
+.bj-type2 {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: white;
+}
+
+.bj-type2-item-top {
+  width: 100%;
+  height: 180px;
+  background-color: yellow;
+}
+
+.bj-type2-item-bottom {
+  border-top: 2px white solid;
+  width: 100%;
+  height: 150px;
+  display: inline-flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.bj-type2-left {
+  width: 49.5%;
+  height: 100%;
+  background-color: red;
+}
+
+.bj-type2-right {
+  width: 49.5%;
+  height: 100%;
+  background-color: green;
+}
