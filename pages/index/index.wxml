@@ -1,0 +1,25 @@
+<!--index.wxml-->
+<view class="container">
+  <!-- 搜索 -->
+  <view class="search-outer">
+    <!--白色按钮-->
+    <view class="search-inner">
+      <icon type="search" size='12' color='#A9A9A9' />
+      <text>搜索</text>
+    </view>
+  </view>
+
+  <!--banner图-->
+  <swiper indicator-dots autoplay interval="2000" class='top-banner' indicator-color="dark" indicator-active-color="white">
+    <swiper-item>
+      <view class="banner-item bg_red" />
+    </swiper-item>
+    <swiper-item>
+      <view class="banner-item bg_green" />
+    </swiper-item>
+    <swiper-item>
+      <view class="banner-item bg_yellow" />
+    </swiper-item>
+  </swiper>
+
+</view>

@@ -1,0 +1,48 @@
+.search-outer {
+  background-color: #ff6701;
+  width: 100%;
+}
+
+.search-inner {
+  padding: 5px;
+  margin: 0 12px 8px 12px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+
+.search-inner text {
+  margin-left: 2px;
+  color: #a9a9a9;
+  font-size: 12px;
+}
+
+/* banner */
+
+.top-banner {
+  width: 100%;
+  height: 150px;
+}
+
+.banner-item {
+  width: 100%;
+  height: 100%;
+}
+
+.bg_green {
+  background-color: green;
+}
+
+.bg_red {
+  background-color: red;
+}
+
+.bg_yellow {
+  background-color: yellow;
+}
+
+.bg_blue {
+  background-color: blue;
+}
