@@ -1,11 +1,14 @@
+page {
+  background-color: #E5E4E5;
+}
 .search-outer {
   background-color: #ff6701;
   width: 100%;
 }
 
 .search-inner {
-  padding: 5px;
-  margin: 0 12px 8px 12px;
+  padding: 6px;
+  margin: 8px 12px 8px 12px;
   background-color: white;
   display: flex;
   justify-content: center;

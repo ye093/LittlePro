@@ -3,6 +3,14 @@
 const app = getApp()
 
 Page({
+  //用户下拉刷新
+  onPullDownRefresh: function() {
+    setTimeout(function() {
+      wx.stopPullDownRefresh();
+    }, 2000);
+  },
+
+
   data: {
     motto: 'Hello World',
     userInfo: {},

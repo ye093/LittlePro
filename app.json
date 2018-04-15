@@ -1,12 +1,43 @@
 {
-  "pages":[
+  "pages": [
+    "pages/cart/cart",
     "pages/index/index",
+    "pages/category/category",
+    "pages/found/found",
     "pages/logs/logs"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#FF6701",
     "navigationBarTitleText": "小米商城",
-    "navigationBarTextStyle":"white"
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#BFBFBF",
+    "selectedColor": "#F85D03",
+    "backgroundColor": "#F9F7F9",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/category/category",
+        "text": "分类"
+      },
+      {
+        "pagePath": "pages/found/found",
+        "text": "发现"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "我的"
+      }
+    ]
   }
 }

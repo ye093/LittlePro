@@ -1,0 +1,7 @@
+<view>
+
+  <!--结算-->
+  <view class='pay-container'>
+    <switch checked='true' type='checkbox' color='red'></switch>
+  </view>
+</view>

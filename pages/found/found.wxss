@@ -1,0 +1,49 @@
+page {
+  background-color: #e5e4e5;
+}
+
+/* 卡片*/
+
+.card-container {
+  overflow: hidden;
+  background-color: white;
+  margin: 12rpx;
+  border-radius: 12rpx;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* 图片*/
+
+.card-head {
+  background-color: pink;
+  height: 280rpx;
+  width: 100%;
+}
+
+/* 说明部分*/
+.card-tail {
+  width: 100%;
+}
+
+.card-txt-desc {
+  text-align: center;
+  margin-bottom: 20rpx;
+}
+
+/* 标签*/
+.card-txt-desc-tag {
+  background-color: #ff6701;
+  font-size: 22rpx;
+  color: white;
+  padding: 6rpx 10rpx;
+  border-radius: 5rpx;
+  text-align: center;
+}
+
+/* 主题*/
+.card-txt-desc-title {
+  margin-left: 8rpx;
+  font-size: 26rpx;
+  color: black;
+  text-align: center;
+}

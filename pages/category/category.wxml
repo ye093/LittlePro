@@ -1,0 +1,199 @@
+<!--pages/category/category.wxml-->
+<view class="container1">
+  <scroll-view scroll-y="true" class='list-sv' style='height: {{systemInfo.windowHeight + "px"}}'>
+    <view data-id="cat-item-0" data-index="0" class="scroll-view-list-item {{catSelectedId == '0' ? 'scroll-view-list-item-hl' : ''}}" bindtap='onListItemClick'>
+      <text>新品</text>
+    </view>
+    <view data-id="cat-item-1" data-index="1" class="scroll-view-list-item {{catSelectedId == '1' ? 'scroll-view-list-item-hl' : ''}}" bindtap='onListItemClick'>
+      <text>手机</text>
+    </view>
+    <view class="scroll-view-list-item">
+      <text>电视</text>
+    </view>
+    <view class="scroll-view-list-item">
+      <text>电脑</text>
+    </view>
+    <view class="scroll-view-list-item">
+      <text>家电</text>
+    </view>
+    <view class="scroll-view-list-item">
+      <text>路由</text>
+    </view>
+    <view class="scroll-view-list-item">
+      <text>智能</text>
+    </view>
+    <view class="scroll-view-list-item">
+      <text>儿童</text>
+    </view>
+    <view class="scroll-view-list-item">
+      <text>电源</text>
+    </view>
+    <view class="scroll-view-list-item">
+      <text>耳机</text>
+    </view>
+    <view class="scroll-view-list-item">
+      <text>音箱</text>
+    </view>
+    <view class="scroll-view-list-item">
+      <text>礼品</text>
+    </view>
+    <view class="scroll-view-list-item">
+      <text>生活</text>
+    </view>
+    <view class="scroll-view-list-item">
+      <text>儿童</text>
+    </view>
+    <view class="scroll-view-list-item">
+      <text>电源</text>
+    </view>
+    <view class="scroll-view-list-item">
+      <text>耳机</text>
+    </view>
+    <view class="scroll-view-list-item">
+      <text>音箱</text>
+    </view>
+    <view class="scroll-view-list-item">
+      <text>礼品</text>
+    </view>
+    <view class="scroll-view-list-item">
+      <text>生活</text>
+    </view>
+    <view class="scroll-view-list-item">
+      <text>儿童</text>
+    </view>
+    <view class="scroll-view-list-item">
+      <text>电源</text>
+    </view>
+    <view class="scroll-view-list-item">
+      <text>耳机</text>
+    </view>
+    <view class="scroll-view-list-item">
+      <text>音箱</text>
+    </view>
+    <view class="scroll-view-list-item">
+      <text>礼品</text>
+    </view>
+    <view class="scroll-view-list-item">
+      <text>生活</text>
+    </view>
+    <view class="scroll-view-list-item">
+      <text>儿童</text>
+    </view>
+    <view class="scroll-view-list-item">
+      <text>电源</text>
+    </view>
+    <view class="scroll-view-list-item">
+      <text>耳机</text>
+    </view>
+    <view class="scroll-view-list-item">
+      <text>音箱</text>
+    </view>
+    <view class="scroll-view-list-item">
+      <text>礼品</text>
+    </view>
+    <view class="scroll-view-list-item">
+      <text>生活</text>
+    </view>
+  </scroll-view>
+  <text>
+
+</text>
+  <scroll-view scroll-y="true" class='detail-sv' style='height: {{systemInfo.windowHeight + "px"}}'>
+    <!-- ----------------------栏分割线-------------------------->
+    <view class="scroll-view-detail-item">
+      <!--标题-->
+      <view class='detail-header'>手机</view>
+      <!--内容区-->
+      <view class='detail-content'>
+        <!--内容区第n行-->
+        <view class='detail-content-row'>
+          <!--图文包裹-->
+          <view class='detail-content-item'>
+            <image class='item-img'></image>
+            <text class='item-txt'>小米6</text>
+          </view>
+          <!--图文包裹-->
+          <view class='detail-content-item'>
+            <image class='item-img'></image>
+            <text class='item-txt'>小米6</text>
+          </view>
+          <!--图文包裹-->
+          <view class='detail-content-item'>
+            <image class='item-img'></image>
+            <text class='item-txt'>小米6</text>
+          </view>
+        </view>
+
+        <!------------------------->
+        <!--内容区第n行-->
+        <view class='detail-content-row'>
+          <!--图文包裹-->
+          <view class='detail-content-item'>
+            <image class='item-img'></image>
+            <text class='item-txt'>小米6</text>
+          </view>
+          <!--图文包裹-->
+          <view class='detail-content-item'>
+            <image class='item-img'></image>
+            <text class='item-txt'>小米6</text>
+          </view>
+          <!--图文包裹-->
+          <view class='detail-content-item'>
+            <image class='item-img'></image>
+            <text class='item-txt'>小米6</text>
+          </view>
+        </view>
+      </view>
+    </view>
+    <!-- ----------------------栏分割线-------------------------->
+
+
+    <!-- ----------------------栏分割线-------------------------->
+    <view class="scroll-view-detail-item">
+      <!--标题-->
+      <view class='detail-header'>手机</view>
+      <!--内容区-->
+      <view class='detail-content'>
+        <!--内容区第n行-->
+        <view class='detail-content-row'>
+          <!--图文包裹-->
+          <view class='detail-content-item'>
+            <image class='item-img'></image>
+            <text class='item-txt'>小米6</text>
+          </view>
+          <!--图文包裹-->
+          <view class='detail-content-item'>
+            <image class='item-img'></image>
+            <text class='item-txt'>小米6</text>
+          </view>
+          <!--图文包裹-->
+          <view class='detail-content-item'>
+            <image class='item-img'></image>
+            <text class='item-txt'>小米6</text>
+          </view>
+        </view>
+
+        <!------------------------->
+        <!--内容区第n行-->
+        <view class='detail-content-row'>
+          <!--图文包裹-->
+          <view class='detail-content-item'>
+            <image class='item-img'></image>
+            <text class='item-txt'>小米6</text>
+          </view>
+          <!--图文包裹-->
+          <view class='detail-content-item'>
+            <image class='item-img'></image>
+            <text class='item-txt'>小米6</text>
+          </view>
+          <!--图文包裹-->
+          <view class='detail-content-item'>
+            <image class='item-img'></image>
+            <text class='item-txt'>小米6</text>
+          </view>
+        </view>
+      </view>
+    </view>
+    <!-- ----------------------栏分割线-------------------------->
+  </scroll-view>
+</view>

@@ -32,8 +32,23 @@ App({
         }
       }
     })
+
+    // 获取设备信息
+    var self = this;
+    wx.getSystemInfo({
+      success: function (res) {
+        self.globalData.systemInfo = res;
+      },
+      fail: function() {
+
+      },
+      complete: function() {
+
+      }
+    })
   },
   globalData: {
-    userInfo: null
+    userInfo: null,
+    systemInfo: null
   }
 })

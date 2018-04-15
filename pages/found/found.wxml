@@ -1,0 +1,49 @@
+<view class="page1">
+  <view class='card-container'>
+    <image class='card-head' />
+    <view class='card-tail'>
+      <view class='card-txt-desc'>
+        <text class='card-txt-desc-tag'>拼团</text>
+        <text class='card-txt-desc-title'>邀请好友，1分钱拼手气，赢黑鲨游戏手机</text>
+      </view>
+    </view>
+  </view>
+
+
+
+
+  <view class='card-container'>
+    <image class='card-head' />
+    <view class='card-tail'>
+      <view class='card-txt-desc'>
+        <text class='card-txt-desc-tag'>拼团</text>
+        <text class='card-txt-desc-title'>邀请好友，1分钱拼手气，赢黑鲨游戏手机</text>
+      </view>
+    </view>
+  </view>
+
+
+
+
+  <view class='card-container'>
+    <image class='card-head' />
+    <view class='card-tail'>
+      <view class='card-txt-desc'>
+        <text class='card-txt-desc-tag'>拼团</text>
+        <text class='card-txt-desc-title'>邀请好友，1分钱拼手气，赢黑鲨游戏手机</text>
+      </view>
+    </view>
+  </view>
+
+
+  <view class='card-container'>
+    <image class='card-head' />
+    <view class='card-tail'>
+      <view class='card-txt-desc'>
+        <text class='card-txt-desc-tag'>拼团</text>
+        <text class='card-txt-desc-title'>邀请好友，1分钱拼手气，赢黑鲨游戏手机</text>
+      </view>
+    </view>
+  </view>
+
+</view>
