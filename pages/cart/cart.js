@@ -14,6 +14,7 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
+    console.log(app.globalData.systemInfo);
     this.setData({ systemInfo: app.globalData.systemInfo });
   },
 
@@ -28,7 +29,7 @@ Page({
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
-  
+
   },
 
   /**
