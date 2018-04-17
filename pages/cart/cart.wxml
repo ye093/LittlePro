@@ -1,178 +1,188 @@
 <view class='main-body'>
   <!--商品列表-->
-  <view class='scroll-view-container' style='height: {{systemInfo.windowHeight - 96}}px'>
-    <scroll-view class='items-container' scroll-y>
-      <view class='margin-divider'></view>
-      <view class='card-item'>
-        <view class='card-item-left'>
-          <switch checked='true' type='checkbox' color='#FF6701'></switch>
-        </view>
-        <view class='card-item-mid'>
-          <image></image>
-          <text>小米盒子4</text>
-        </view>
-        <view class='card-item-right'>
-          <text class='item-qty'>1 x </text>
-          <text class='item-price'>349元</text>
-        </view>
+  <view class='items-container'>
+    <view class='margin-divider'></view>
+    <view class='card-item'>
+      <view class='card-item-left'>
+        <switch checked='true' type='checkbox' color='#FF6701'></switch>
       </view>
-
-
-      <view class='card-item'>
-        <view class='card-item-left'>
-          <switch checked='true' type='checkbox' color='#FF6701'></switch>
-        </view>
-        <view class='card-item-mid'>
-          <image></image>
-          <text>小米盒子4</text>
-        </view>
-        <view class='card-item-right'>
-          <text class='item-qty'>1 x </text>
-          <text class='item-price'>349元</text>
-        </view>
+      <view class='card-item-mid'>
+        <image></image>
+        <text>小米盒子4</text>
       </view>
-
-
-      <view class='card-item'>
-        <view class='card-item-left'>
-          <switch checked='true' type='checkbox' color='#FF6701'></switch>
-        </view>
-        <view class='card-item-mid'>
-          <image></image>
-          <text>小米盒子4</text>
-        </view>
-        <view class='card-item-right'>
-          <text class='item-qty'>1 x </text>
-          <text class='item-price'>349元</text>
-        </view>
+      <view class='card-item-right'>
+        <text class='item-qty'>1 x </text>
+        <text class='item-price'>349元</text>
       </view>
+    </view>
 
 
-      <view class='card-item'>
-        <view class='card-item-left'>
-          <switch checked='true' type='checkbox' color='#FF6701'></switch>
-        </view>
-        <view class='card-item-mid'>
-          <image></image>
-          <text>小米盒子4</text>
-        </view>
-        <view class='card-item-right'>
-          <text class='item-qty'>1 x </text>
-          <text class='item-price'>349元</text>
-        </view>
+    <view class='card-item'>
+      <view class='card-item-left'>
+        <switch checked='true' type='checkbox' color='#FF6701'></switch>
       </view>
-
-
-      <view class='card-item'>
-        <view class='card-item-left'>
-          <switch checked='true' type='checkbox' color='#FF6701'></switch>
-        </view>
-        <view class='card-item-mid'>
-          <image></image>
-          <text>小米盒子4</text>
-        </view>
-        <view class='card-item-right'>
-          <text class='item-qty'>1 x </text>
-          <text class='item-price'>349元</text>
-        </view>
+      <view class='card-item-mid'>
+        <image></image>
+        <text>小米盒子4</text>
       </view>
-
-
-      <view class='card-item'>
-        <view class='card-item-left'>
-          <switch checked='true' type='checkbox' color='#FF6701'></switch>
-        </view>
-        <view class='card-item-mid'>
-          <image></image>
-          <text>小米盒子4</text>
-        </view>
-        <view class='card-item-right'>
-          <text class='item-qty'>1 x </text>
-          <text class='item-price'>349元</text>
-        </view>
+      <view class='card-item-right'>
+        <text class='item-qty'>1 x </text>
+        <text class='item-price'>349元</text>
       </view>
+    </view>
 
 
-      <view class='card-item'>
-        <view class='card-item-left'>
-          <switch checked='true' type='checkbox' color='#FF6701'></switch>
-        </view>
-        <view class='card-item-mid'>
-          <image></image>
-          <text>小米盒子4</text>
-        </view>
-        <view class='card-item-right'>
-          <text class='item-qty'>1 x </text>
-          <text class='item-price'>349元</text>
-        </view>
+    <view class='card-item'>
+      <view class='card-item-left'>
+        <switch checked='true' type='checkbox' color='#FF6701'></switch>
       </view>
-
-
-      <view class='card-item'>
-        <view class='card-item-left'>
-          <switch checked='true' type='checkbox' color='#FF6701'></switch>
-        </view>
-        <view class='card-item-mid'>
-          <image></image>
-          <text>小米盒子4</text>
-        </view>
-        <view class='card-item-right'>
-          <text class='item-qty'>1 x </text>
-          <text class='item-price'>349元</text>
-        </view>
+      <view class='card-item-mid'>
+        <image></image>
+        <text>小米盒子4</text>
       </view>
-
-
-      <view class='card-item'>
-        <view class='card-item-left'>
-          <switch checked='true' type='checkbox' color='#FF6701'></switch>
-        </view>
-        <view class='card-item-mid'>
-          <image></image>
-          <text>小米盒子4</text>
-        </view>
-        <view class='card-item-right'>
-          <text class='item-qty'>1 x </text>
-          <text class='item-price'>349元</text>
-        </view>
+      <view class='card-item-right'>
+        <text class='item-qty'>1 x </text>
+        <text class='item-price'>349元</text>
       </view>
+    </view>
 
 
-      <view class='card-item'>
-        <view class='card-item-left'>
-          <switch checked='true' type='checkbox' color='#FF6701'></switch>
-        </view>
-        <view class='card-item-mid'>
-          <image></image>
-          <text>小米盒子4</text>
-        </view>
-        <view class='card-item-right'>
-          <text class='item-qty'>1 x </text>
-          <text class='item-price'>349元</text>
-        </view>
+    <view class='card-item'>
+      <view class='card-item-left'>
+        <switch checked='true' type='checkbox' color='#FF6701'></switch>
       </view>
-
-
-      <view class='card-item'>
-        <view class='card-item-left'>
-          <switch checked='true' type='checkbox' color='#FF6701'></switch>
-        </view>
-        <view class='card-item-mid'>
-          <image></image>
-          <text>小米盒子4</text>
-        </view>
-        <view class='card-item-right'>
-          <text class='item-qty'>1 x </text>
-          <text class='item-price'>349元</text>
-        </view>
+      <view class='card-item-mid'>
+        <image></image>
+        <text>小米盒子4</text>
       </view>
+      <view class='card-item-right'>
+        <text class='item-qty'>1 x </text>
+        <text class='item-price'>349元</text>
+      </view>
+    </view>
 
-      <view class='margin-divider'></view>
-    </scroll-view>
+
+    <view class='card-item'>
+      <view class='card-item-left'>
+        <switch checked='true' type='checkbox' color='#FF6701'></switch>
+      </view>
+      <view class='card-item-mid'>
+        <image></image>
+        <text>小米盒子4</text>
+      </view>
+      <view class='card-item-right'>
+        <text class='item-qty'>1 x </text>
+        <text class='item-price'>349元</text>
+      </view>
+    </view>
+
+
+    <view class='card-item'>
+      <view class='card-item-left'>
+        <switch checked='true' type='checkbox' color='#FF6701'></switch>
+      </view>
+      <view class='card-item-mid'>
+        <image></image>
+        <text>小米盒子4</text>
+      </view>
+      <view class='card-item-right'>
+        <text class='item-qty'>1 x </text>
+        <text class='item-price'>349元</text>
+      </view>
+    </view>
+
+
+    <view class='card-item'>
+      <view class='card-item-left'>
+        <switch checked='true' type='checkbox' color='#FF6701'></switch>
+      </view>
+      <view class='card-item-mid'>
+        <image></image>
+        <text>小米盒子4</text>
+      </view>
+      <view class='card-item-right'>
+        <text class='item-qty'>1 x </text>
+        <text class='item-price'>349元</text>
+      </view>
+    </view>
+
+
+    <view class='card-item'>
+      <view class='card-item-left'>
+        <switch checked='true' type='checkbox' color='#FF6701'></switch>
+      </view>
+      <view class='card-item-mid'>
+        <image></image>
+        <text>小米盒子4</text>
+      </view>
+      <view class='card-item-right'>
+        <text class='item-qty'>1 x </text>
+        <text class='item-price'>349元</text>
+      </view>
+    </view>
+
+
+    <view class='card-item'>
+      <view class='card-item-left'>
+        <switch checked='true' type='checkbox' color='#FF6701'></switch>
+      </view>
+      <view class='card-item-mid'>
+        <image></image>
+        <text>小米盒子4</text>
+      </view>
+      <view class='card-item-right'>
+        <text class='item-qty'>1 x </text>
+        <text class='item-price'>349元</text>
+      </view>
+    </view>
+
+
+    <view class='card-item'>
+      <view class='card-item-left'>
+        <switch checked='true' type='checkbox' color='#FF6701'></switch>
+      </view>
+      <view class='card-item-mid'>
+        <image></image>
+        <text>小米盒子4</text>
+      </view>
+      <view class='card-item-right'>
+        <text class='item-qty'>1 x </text>
+        <text class='item-price'>349元</text>
+      </view>
+    </view>
+
+
+    <view class='card-item'>
+      <view class='card-item-left'>
+        <switch checked='true' type='checkbox' color='#FF6701'></switch>
+      </view>
+      <view class='card-item-mid'>
+        <image></image>
+        <text>小米盒子4</text>
+      </view>
+      <view class='card-item-right'>
+        <text class='item-qty'>1 x </text>
+        <text class='item-price'>349元</text>
+      </view>
+    </view>
+
+    <view class='margin-divider'></view>
+    <view class='pay-container-divider'></view>
   </view>
 
   <!--结算-->
-  <view class='pay-container' style='height: 48px'>
-    <switch checked='true' type='checkbox' color='red'></switch>
+  <view class='pay-container'>
+    <label class='pay-container-left'>
+      <switch checked='true' type='checkbox' color='red'></switch>
+      <text>全选</text>
+    </label>
+
+    <view class='pay-container-right'>
+      <text class='sum'>合计： </text>
+      <text class='amount'>4533.9元</text>
+      <view class='payment-parent'>
+        <text class='payment'>结算(8)</text>
+      </view>
+    </view>
   </view>
 </view>

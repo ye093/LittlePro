@@ -1,16 +1,12 @@
 /* 商品*/
-/* .main-body{
-} */
-/* .scroll-view-container {
-  height: 300px;
-} */
 
- .items-container {
-   height: 100%;
-} 
 .margin-divider {
-  height: 9px;
+  height: 18rpx;
   width: 100%;
+}
+
+.pay-container-divider {
+  height: 88rpx;
 }
 
 /* 商品每一项*/
@@ -70,6 +66,61 @@
 }
 
 .pay-container {
+  height: 88rpx;
+  position: fixed;
+  bottom: 0;
   width: 100%;
-  background-color: yellow;
+  background-color: white;
+  border-top: 1rpx solid #e5e5e5;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+
+.pay-container-left {
+  flex-grow: 1;
+  display: inline-flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+
+.pay-container-left switch {
+  margin-left: 20rpx;
+}
+
+.pay-container-left text {
+  margin-left: 20rpx;
+  font-size: 28rpx;
+}
+
+.pay-container-right {
+  display: inline-flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  height: 100%;
+}
+
+.pay-container-right .sum {
+  font-size: 36rpx;
+}
+
+.pay-container-right .amount {
+  font-size: 36rpx;
+  color: #ff6701;
+}
+
+.payment-parent {
+  margin-left: 20rpx;
+  padding-left: 20rpx;
+  padding-right: 20rpx;
+  height: 100%;
+  background-color: #ff6701;
+  display: inline-flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+
+.pay-container-right .payment {
+  font-size: 42rpx;
+  color: white;
 }
