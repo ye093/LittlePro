@@ -1,15 +1,15 @@
 {
   "pages": [
-    "pages/cart/cart",
     "pages/index/index",
     "pages/category/category",
     "pages/found/found",
+    "pages/cart/cart",
     "pages/logs/logs"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#FF6701",
-    "navigationBarTitleText": "小米商城",
+    "navigationBarTitleText": "微同城",
     "navigationBarTextStyle": "white",
     "enablePullDownRefresh": true
   },

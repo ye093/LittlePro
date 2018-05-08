@@ -1,4 +1,6 @@
 //app.js
+const wxUser = require('./utils/user.js');
+
 App({
   onLaunch: function () {
     // 展示本地存储能力
@@ -7,11 +9,21 @@ App({
     wx.setStorageSync('logs', logs)
 
     // 登录
-    wx.login({
-      success: res => {
-        // 发送 res.code 到后台换取 openId, sessionKey, unionId
-      }
-    })
+    // 先检查本地Token
+    var userToken = wx.getStorageSync('token') || '';
+    if (userToken.length > 0) {
+      //检测用户登录状态
+      wx.checkSession({
+        success: function() {
+          console.log('登录态有效');
+        },
+        fail: function() {
+          wxUser.userLogin(wx);
+        },
+      });
+    } else {
+      wxUser.userLogin(wx);
+    }
     // 获取用户信息
     wx.getSetting({
       success: res => {
