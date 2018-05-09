@@ -18,11 +18,11 @@ App({
           console.log('登录态有效');
         },
         fail: function() {
-          wxUser.userLogin(wx);
+          wxUser.userLogin();
         },
       });
     } else {
-      wxUser.userLogin(wx);
+      wxUser.userLogin();
     }
     // 获取用户信息
     wx.getSetting({

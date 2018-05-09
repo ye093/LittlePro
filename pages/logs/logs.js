@@ -1,15 +1,12 @@
 //logs.js
 const util = require('../../utils/util.js')
+import { fetchUserInfo } from '../../utils/user.js'
 
 Page({
   data: {
     logs: []
   },
   onLoad: function () {
-    this.setData({
-      logs: (wx.getStorageSync('logs') || []).map(log => {
-        return util.formatTime(new Date(log))
-      })
-    })
+    fetchUserInfo();
   }
 })
